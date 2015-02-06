@@ -25,7 +25,7 @@ section {
 }
 
 div.big-cover {
-  background: url('../img/big_bg.jpg?1423177740');
+  background: url('../img/big_bg.jpg?1423260338');
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -121,7 +121,7 @@ div.big-cover ul.social li:nth-child(6) a {
 }
 
 header {
-  background: url('../img/top_bg.jpg?1423236120');
+  background: url('../img/top_bg.jpg?1423260338');
   background-size: cover;
   height: 190px;
   width: 100%;
@@ -163,6 +163,26 @@ header div.nav a.active {
   font-size: 30px;
   letter-spacing: 1px;
   color: #fff;
+}
+
+header#influencer {
+  background: url('../img/influencer_top.jpg?1423260338');
+  background-size: cover;
+}
+
+header#clients {
+  background: url('../img/clients_top.png?1423260191');
+  background-size: cover;
+}
+
+header#about {
+  background: url('../img/about_top.jpg?1423260338');
+  background-size: cover;
+}
+
+header#contact {
+  background: url('../img/contact_top.jpg?1423260338');
+  background-size: cover;
 }
 
 div.content {

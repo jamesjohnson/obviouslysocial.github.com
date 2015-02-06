@@ -207,6 +207,27 @@ header {
   }
 }
 
+header#influencer {
+  background: image-url("influencer_top.jpg");
+  background-size: cover;
+}
+
+header#clients {
+  background: image-url("clients_top.png");
+  background-size: cover;
+}
+
+header#about {
+  background: image-url("about_top.jpg");
+  background-size: cover;
+}
+
+header#contact {
+  background: image-url("contact_top.jpg");
+  background-size: cover;
+}
+
+
 div.content {
   padding-top: 70px;
   
