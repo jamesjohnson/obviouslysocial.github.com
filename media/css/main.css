@@ -329,10 +329,14 @@ h4.dark {
 }
 
 @media all and (min-width: 1250px) {
+  div.wrapper {
+    width: 1200px;
+  }
+
   div.big-cover h2 {
     color: #6bc4ea;
     font-family: "Montserrat", sans-serif;
-    font-size: 220px;
+    font-size: 200px;
     text-transform: uppercase;
     padding: 90px 0 15px;
   }
@@ -353,7 +357,7 @@ h4.dark {
   div.big-cover h5 {
     color: #6bc4ea;
     font-family: "Montserrat", sans-serif;
-    font-size: 80px;
+    font-size: 75px;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
