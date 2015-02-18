@@ -54,8 +54,8 @@ div.big-cover {
 
   div.watermark {
     position: absolute;
-    width: 400px;
-    height: 28px;
+    width: 350px;
+    height: 24px;
     top: 40px;
     background: image-url("osocial.png");
     background-size: 100%;
@@ -197,6 +197,14 @@ header {
       letter-spacing: 2px;
       text-transform: uppercase;
       text-decoration: none;
+      -webkit-transition: color 0.7s ease-out;
+      -moz-transition: color 0.7s ease-out;
+      -o-transition: color 0.7s ease-out;
+      transition: color 0.7s ease-out;
+
+      &:hover {
+        color: #fff;
+      }
 
       &.active {
         font-size: 30px;
@@ -416,6 +424,7 @@ h4.dark {
 
   div.big-cover {
     min-height: 800px;
+    
     h2 {
       color: #6bc4ea;
       font-family: $mon;

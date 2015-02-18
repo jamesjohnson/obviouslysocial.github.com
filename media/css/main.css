@@ -43,8 +43,8 @@ div.big-cover div.logo {
 }
 div.big-cover div.watermark {
   position: absolute;
-  width: 400px;
-  height: 28px;
+  width: 350px;
+  height: 24px;
   top: 40px;
   background: url('../img/osocial.png?1423177803');
   background-size: 100%;
@@ -158,6 +158,13 @@ header div.nav a {
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
+  -webkit-transition: color 0.7s ease-out;
+  -moz-transition: color 0.7s ease-out;
+  -o-transition: color 0.7s ease-out;
+  transition: color 0.7s ease-out;
+}
+header div.nav a:hover {
+  color: #fff;
 }
 header div.nav a.active {
   font-size: 30px;
