@@ -127,6 +127,8 @@ header {
   width: 100%;
   text-align: center;
   letter-spacing: 8px;
+  position: fixed;
+  top: 0;
 }
 header div.logo {
   position: absolute;
@@ -194,6 +196,10 @@ header#contact {
 
 div.content {
   padding-top: 70px;
+  position: relative;
+  margin-top: 190px;
+  background: #fff;
+  z-index: 30px;
 }
 div.content h3 {
   color: #6bc4ea;
