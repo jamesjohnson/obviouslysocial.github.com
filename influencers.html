@@ -43,8 +43,9 @@
          <div class='watermark'>
          </div>
          <div class='nav'>
-           <a href='services.html'>Services</a> / <a class='active' href='influencers.html'>Influencers</a> / <a href='clients.html'>Clients + Work</a> / <a href='about.html'>About</a> /  <a href='http://blog.obviouslysocial.com/news'>The Blog</a> / <a href='contact.html'>Contact</a>
+           <a href='services.html'>Services</a> <span>/</span> <a class='active' href='influencers.html'>Influencers</a> <span>/</span> <a href='clients.html'>Clients + Work</a> <span>/</span> <a href='about.html'>About</a> <span>/</span>  <a href='http://blog.obviouslysocial.com/news'>The Blog</a> <span>/</span> <a href='contact.html'>Contact</a>
          </div>
+         <a href='javascript:showMenu()' class='mobile'>Menu</a>
        </div>
      </header>
      <div class='content'>
@@ -88,4 +89,10 @@
      </div>
    </div>
    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type='text/javascript'>
+      function showMenu() {
+        $("div.nav").animate({top: "0px"});
+      }
+    </script>
 </html>

@@ -43,8 +43,9 @@
          <div class='watermark'>
          </div>
          <div class='nav'>
-           <a href='services.html'>Services</a> / <a href='influencers.html'>Influencers</a> / <a href='clients.html'>Clients + Work</a> / <a class='active' href='about.html'>About</a> /  <a href='http://blog.obviouslysocial.com/news'>The Blog</a> / <a href='contact.html'>Contact</a>
+           <a href='services.html'>Services</a> <span>/</span> <a href='influencers.html'>Influencers</a> <span>/</span> <a href='clients.html'>Clients + Work</a> <span>/</span> <a class='active' href='about.html'>About</a> <span>/</span>  <a href='http://blog.obviouslysocial.com/news'>The Blog</a> <span>/</span> <a href='contact.html'>Contact</a>
          </div>
+         <a href='javascript:showMenu()' class='mobile'>Menu</a>
        </div>
      </header>
      <div class='content'>
@@ -63,9 +64,9 @@
            <h4>KAITLIN MCKENNA, Social Media Assistant Manager / @mckait15</h4>
            <p>Kaitlin is a copywriter and social media expert. She began working at Obviously Social as an intern during her senior year at Fordham University. She has since graduated with a B.A. in English and is thrilled to join the team full-time and begin her professional career, executing on campaigns for clients across industries. Kaitlin can often be found with her nose in a book and hopes to one day pen the next great American novel.
 Specialties: copywriting, community management</p>
-           <h4>Sandia Trent, VP, Strategy & BD</h4>
+           <h4>SANDIA TRENT, VP, Strategy & BD</h4>
            <p>Sandia Trent is an digital marketing leader and analyst. Before joining Obviously Social, she led data and content-driven marketing efforts at media giants such as Vimeo and Inc. 500 startups. She developed digital marketing partnerships with international retail brands such as Net-a-Porter, Glamour-Sales, and Meilishuo. Sandia is a graduate of Barnard College, Columbia University and grew up in Macau, China. Sandia is fluent in Mandarin and Cantonese. In her free time, she devours books and meditates atop a field of handbags.</p>
-           <h4>Chuck Routhier, Designer</h4>
+           <h4>CHUCK ROUTHIER, Designer</h4>
            <p>Chuck has over 25 years of design experience. He has worked on comprehensive branding programs for Hertz, Blackberry, Burger King, Capital One, Clairol, Exubera, Lipitor, Maxwell House, Merrill Lynch, Morgan Stanley, PowerStop/American Express, Cetaphil, Song Airlines and Thomas’s. Chuck was creative director at Landor Associates in NYC, then Vice President/Creative Director of Brand Anatomy, the internal branding studio of CDM. Prior to Landor, Chuck was associate Creative Director at CKS Partners in New York and Art Director at Clement Mok designs in San Francisco where he worked with Apple and other technology companies in the dawn of the digital design era. In addition, he has been a principal owner of several small design firms in New York and San Francisco. He co-founded dsgnfix, a search, discover and inspiration iPhone app (dsgnfix.com). Chuck holds an MFA in Graphic Design from Yale University and has taught design at Yale, Maine College of Art and Parsons School of Design in Manhattan. Chuck also designs and crafts lighting and furniture. He has two sons and a daughter.</p>
          </div>
          <br/>
@@ -85,4 +86,10 @@ Specialties: copywriting, community management</p>
      </div>
    </div>
    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type='text/javascript'>
+      function showMenu() {
+        $("div.nav").animate({top: "0px"});
+      }
+    </script>
 </html>

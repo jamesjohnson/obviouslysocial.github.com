@@ -148,9 +148,13 @@ header div.watermark {
   background-size: 100%;
   right: 0;
 }
+header a.mobile {
+  display: none;
+}
 header div.nav {
   width: 100%;
   padding: 140px 0 30px;
+  display: block;
   color: #6bc4ea;
 }
 header div.nav a {
@@ -419,6 +423,9 @@ h4.dark {
   }
 }
 @media all and (max-width: 709px) {
+  div.big-cover {
+    background-position: center;
+  }
   div.big-cover div.logo {
     width: 70px;
     height: 39px;
@@ -448,14 +455,43 @@ h4.dark {
   }
 
   header div.logo {
-    width: 70px;
-    height: 39px;
+    width: 100px;
+    height: 55px;
+    position: relative;
+    margin: 0 auto;
   }
   header div.watermark {
     width: 200px;
+    display: none;
     height: 14px;
   }
+  header a.mobile {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 71px 0;
+  }
   header div.nav {
-    padding: 70px 0 0;
+    width: 100%;
+    padding: 10px 0 0;
+    position: fixed;
+    left: 0;
+    top: -200px;
+    background: #fff;
+  }
+  header div.nav span {
+    display: none;
+  }
+  header div.nav a {
+    display: block;
+    padding: 7px 0px;
+    visibility: visible;
+    text-indent: none;
+    width: 100%;
+  }
+  header div.nav a.active {
+    color: #000;
   }
 }
