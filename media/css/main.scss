@@ -415,6 +415,7 @@ h4.dark {
   }
 
   div.big-cover {
+    min-height: 800px;
     h2 {
       color: #6bc4ea;
       font-family: $mon;
@@ -442,7 +443,7 @@ h4.dark {
     h5 {
       color: #6bc4ea;
       font-family: $mon;
-      font-size: 75px;
+      font-size: 70px;
       letter-spacing: 1px;
       text-transform: uppercase;
     }

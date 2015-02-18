@@ -333,6 +333,9 @@ h4.dark {
     width: 1200px;
   }
 
+  div.big-cover {
+    min-height: 800px;
+  }
   div.big-cover h2 {
     color: #6bc4ea;
     font-family: "Montserrat", sans-serif;
@@ -357,7 +360,7 @@ h4.dark {
   div.big-cover h5 {
     color: #6bc4ea;
     font-family: "Montserrat", sans-serif;
-    font-size: 75px;
+    font-size: 70px;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
