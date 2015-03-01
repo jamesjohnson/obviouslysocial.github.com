@@ -390,10 +390,13 @@ h4.dark {
 
   div.big-cover div.logo {
     width: 90px;
-    height: 50px;
+    height: 52px;
+    margin: 0 auto;
+    position: relative;
   }
   div.big-cover div.watermark {
     width: 300px;
+    display: none;
     height: 21px;
   }
   div.big-cover h2 {
@@ -413,7 +416,6 @@ h4.dark {
     float: none;
     width: 90%;
     margin: 0 auto !important;
-    text-align: center;
   }
   div.content h3 {
     font-size: 20px;
@@ -456,7 +458,7 @@ h4.dark {
 
   header div.logo {
     width: 100px;
-    height: 55px;
+    height: 56px;
     position: relative;
     margin: 0 auto;
   }
@@ -493,5 +495,9 @@ h4.dark {
   }
   header div.nav a.active {
     color: #000;
+  }
+
+  div.content {
+    padding-top: 40px;
   }
 }
