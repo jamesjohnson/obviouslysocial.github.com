@@ -390,6 +390,23 @@ footer {
 }
 
 div#influencers {
+
+  img {
+    width: 190px;
+    height: 190px;
+    max-height: 200px;
+    margin-top: 70px;
+    float: left;
+    @include border-radius(100px);
+    clear: both;
+  }
+
+  div.right {
+    margin-top: 70px;
+    width: 80%;
+    float: right;
+  }
+
   h4 {
     font-size: 20px;
     color: #231f20;

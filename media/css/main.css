@@ -311,6 +311,24 @@ footer ul.social li:nth-child(6) a {
   background-position: -215px 0;
 }
 
+div#influencers img {
+  width: 190px;
+  height: 190px;
+  max-height: 200px;
+  margin-top: 70px;
+  float: left;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  clear: both;
+}
+div#influencers div.right {
+  margin-top: 70px;
+  width: 80%;
+  float: right;
+}
 div#influencers h4 {
   font-size: 20px;
   color: #231f20;
