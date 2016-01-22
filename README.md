@@ -1,4 +1,2 @@
-Sarah and James' Wedding Website!
+Obviously Social
 ======================
-
-Our Wedding Website!
