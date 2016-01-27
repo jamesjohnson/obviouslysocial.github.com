@@ -25,7 +25,7 @@ section {
 }
 
 div.big-cover {
-  background: url('../img/big_bg.jpg?1423260338');
+  background: url('../img/big_bg.jpg?1453496070');
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -37,7 +37,7 @@ div.big-cover div.logo {
   top: 20px;
   width: 120px;
   height: 68px;
-  background: url('../img/logo_white.png?1423177776');
+  background: url('../img/logo_white.png?1453496070');
   background-size: 100%;
   left: 0;
 }
@@ -46,7 +46,7 @@ div.big-cover div.watermark {
   width: 350px;
   height: 24px;
   top: 40px;
-  background: url('../img/osocial.png?1423177803');
+  background: url('../img/osocial.png?1453496070');
   background-size: 100%;
   right: 0;
 }
@@ -102,7 +102,7 @@ div.big-cover ul.social li a {
   width: 30px;
   height: 25px;
   display: inline-block;
-  background: url('../img/social_sprite.png?1423177971');
+  background: url('../img/social_sprite.png?1453496070');
 }
 div.big-cover ul.social li:nth-child(2) a {
   background-position: -38px 0;
@@ -121,7 +121,7 @@ div.big-cover ul.social li:nth-child(6) a {
 }
 
 header {
-  background: url('../img/top_bg.jpg?1423260338');
+  background: url('../img/top_bg.jpg?1453496070');
   background-size: cover;
   height: 190px;
   width: 100%;
@@ -135,7 +135,7 @@ header div.logo {
   top: 20px;
   width: 120px;
   height: 68px;
-  background: url('../img/logo_white.png?1423177776');
+  background: url('../img/logo_white.png?1453496070');
   background-size: 100%;
   left: 0;
 }
@@ -144,7 +144,7 @@ header div.watermark {
   width: 400px;
   height: 28px;
   top: 40px;
-  background: url('../img/osocial.png?1423177803');
+  background: url('../img/osocial.png?1453496070');
   background-size: 100%;
   right: 0;
 }
@@ -179,22 +179,22 @@ header div.nav a.active {
 }
 
 header#influencer {
-  background: url('../img/influencer_top.jpg?1423260338');
+  background: url('../img/influencer_top.jpg?1453496070');
   background-size: cover;
 }
 
 header#clients {
-  background: url('../img/clients_top.png?1423260191');
+  background: url('../img/clients_top.png?1453496070');
   background-size: cover;
 }
 
 header#about {
-  background: url('../img/about_top.jpg?1423260338');
+  background: url('../img/about_top.jpg?1453496070');
   background-size: cover;
 }
 
 header#contact {
-  background: url('../img/contact_top.jpg?1423260338');
+  background: url('../img/contact_top.jpg?1453496070');
   background-size: cover;
 }
 
@@ -293,7 +293,7 @@ footer ul.social li a {
   width: 30px;
   height: 25px;
   display: inline-block;
-  background: url('../img/social_sprite_dark.png?1423240509');
+  background: url('../img/social_sprite_dark.png?1453496070');
 }
 footer ul.social li:nth-child(2) a {
   background-position: -38px 0;
@@ -317,10 +317,8 @@ div#influencers img {
   max-height: 200px;
   margin-top: 70px;
   float: left;
-  -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
+  -webkit-border-radius: 100px;
   border-radius: 100px;
   clear: both;
 }
@@ -518,4 +516,8 @@ h4.dark {
   div.content {
     padding-top: 40px;
   }
+}
+div#clients {
+  width: 75%;
+  margin: 0 auto;
 }
